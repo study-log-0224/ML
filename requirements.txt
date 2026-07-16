@@ -13,3 +13,5 @@ imbalanced-learn
 seaborn
 mlxtend
 joblib
+# 데이터 오염도 여부 측정
+ydata-profiling

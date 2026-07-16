@@ -4,6 +4,7 @@ services:
   jupyter:
     image: jupyter/scipy-notebook:latest
     container_name: jupyter-ml
+    mem_limit: 4g
     ports:
       - "9999:8888"
     volumes:
